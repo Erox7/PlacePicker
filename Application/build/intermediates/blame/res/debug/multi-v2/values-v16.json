@@ -1,0 +1,57 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Android\\AndroidStudioProjects\\android-play-places-master\\android-play-places-master\\PlacePicker\\Application\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Erox\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\4fd4acbebc2409304cc66003eac98cd1\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "D:\\Android\\AndroidStudioProjects\\android-play-places-master\\android-play-places-master\\PlacePicker\\Application\\src\\main\\res\\values-v16\\styles.xml",
+                    "from": {
+                        "startLines": "7,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "197,56",
+                        "endLines": "9,5",
+                        "endColumns": "12,12",
+                        "endOffsets": "332,191"
+                    },
+                    "to": {
+                        "startLines": "3,6",
+                        "startColumns": "4,4",
+                        "startOffsets": "121,261",
+                        "endLines": "5,8",
+                        "endColumns": "12,12",
+                        "endOffsets": "256,396"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Erox\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\1e92515aa1792ad4464b6ac187bbe70c\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "401",
+                        "endLines": "12",
+                        "endColumns": "12",
+                        "endOffsets": "569"
+                    }
+                }
+            ]
+        }
+    ]
+}
