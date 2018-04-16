@@ -42,12 +42,13 @@ import android.content.Intent;
 import android.net.Uri;
 import android.provider.Settings;
 
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Toast;
 
 import java.util.Locale;
 
-public class MainActivity extends SampleActivityBase implements CardStream {
+public class MainActivity extends AppCompatActivity implements CardStream {
 
     public static final String TAG = "MainActivity";
     public static final String FRAGTAG = "PlacePickerFragment";
@@ -64,14 +65,14 @@ public class MainActivity extends SampleActivityBase implements CardStream {
         setContentView(R.layout.activity_main);
         buildLocationSettingsRequest();
 
-        mSettingsClient = LocationServices.getSettingsClient(this);
+       /* mSettingsClient = LocationServices.getSettingsClient(this);
         mSettingsClient.checkLocationSettings(mLocationSettingsRequest).addOnFailureListener(this, new OnFailureListener() {
             @Override
             public void onFailure(@NonNull Exception e) {
-                /*Hacer Algo*/
+                Hacer Algo
 
             }
-        });
+        });*/
 
         FragmentManager fm = getSupportFragmentManager();
         PlacePickerFragment fragment =
