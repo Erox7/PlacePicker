@@ -2218,11 +2218,11 @@
         <item name="tabTextAppearance">@style/TextAppearance.Design.Tab</item>
         <item name="tabSelectedTextColor">?android:textColorPrimary</item>
     </style>
-    <style name="Card">
+    <style name="Card" parent="Theme.AppCompat.DayNight">
         <item name="android:background">@drawable/card_bg</item>
         <item name="android:layout_margin">@dimen/card_margin</item>
     </style>
-    <style name="CardAction">
+    <style name="CardAction" parent="Theme.AppCompat.DayNight">
         <item name="android:textSize">17sp</item>
         <item name="android:layout_marginTop">@dimen/card_action_margin</item>
         <item name="android:layout_marginLeft">@dimen/card_action_margin</item>
@@ -2230,7 +2230,7 @@
         <item name="android:paddingLeft">@dimen/card_action_padding</item>
         <item name="android:drawablePadding">@dimen/card_action_padding</item>
     </style>
-    <style name="CardActionArea">
+    <style name="CardActionArea" parent="Theme.AppCompat.DayNight">
         <item name="android:background">@color/card_action_bg</item>
         <item name="android:orientation">vertical</item>
         <item name="android:paddingBottom">@dimen/card_action_margin</item>
@@ -2252,7 +2252,7 @@
     </style>
     <style name="CardContent" parent="@style/CardContentBase">
     </style>
-    <style name="CardContentArea">
+    <style name="CardContentArea" parent="Theme.AppCompat.DayNight">
         <item name="android:paddingBottom">@dimen/card_padding</item>
     </style>
     <style name="CardContentBase" parent="@style/CardElement">
@@ -2260,7 +2260,7 @@
         <item name="android:textSize">@dimen/card_content_text</item>
         <item name="android:textColor">@color/card_content_textcolor</item>
     </style>
-    <style name="CardElement">
+    <style name="CardElement" parent="Theme.AppCompat.DayNight">
         <item name="android:paddingLeft">@dimen/card_padding</item>
         <item name="android:paddingRight">@dimen/card_padding</item>
     </style>
@@ -2276,7 +2276,7 @@
         <item name="android:textSize">12sp</item>
         <item name="android:paddingLeft">0dp</item>
     </style>
-    <style name="CardStream">
+    <style name="CardStream" parent="Theme.AppCompat.DayNight">
         <item name="android:paddingBottom">@dimen/card_stream_bottom_padding</item>
         <item name="android:divider">@null</item>
         <item name="android:orientation">vertical</item>

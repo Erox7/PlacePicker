@@ -2510,20 +2510,20 @@
         ]]>
     </string></file><file path="D:\Android\AndroidStudioProjects\android-play-places-master\android-play-places-master\PlacePicker\Application\src\main\res\values\color.xml" qualifiers=""><color name="card_action_inverted">@android:color/white</color><color name="card_content_textcolor">#444</color><color name="card_action_bg">#DDD</color><color name="card_action_item_bg">#F4F4F4</color><color name="card_action_focused">#FFE3F4FC</color><color name="card_action">#FF47B4EA</color><color name="card_action_ripple">#CC47B4EA</color><color name="card_action_negative_focused">#FFFBCBCA</color><color name="card_action_negative">#FFF64940</color><color name="card_action_negative_ripple">#CCF64940</color><color name="card_action_positive_focused">#FFE4F0AF</color><color name="card_action_positive">#FFA0CC00</color><color name="card_action_positive_ripple">#CCA0CC00</color></file><file path="D:\Android\AndroidStudioProjects\android-play-places-master\android-play-places-master\PlacePicker\Application\src\main\res\values\dimens.xml" qualifiers=""><dimen name="card_content_text">14sp</dimen><dimen name="card_content_title">24sp</dimen><dimen name="card_padding">15dp</dimen><dimen name="card_margin">10dp</dimen><dimen name="card_action_margin">3dp</dimen><dimen name="card_action_padding">8dp</dimen><dimen name="card_stream_bottom_padding">90dp</dimen></file><file path="D:\Android\AndroidStudioProjects\android-play-places-master\android-play-places-master\PlacePicker\Application\src\main\res\values\ids.xml" qualifiers=""><item name="card_layout" type="id"/><item name="card_actionarea" type="id"/><item name="card_contentarea" type="id"/><item name="card_title" type="id"/><item name="card_content" type="id"/><item name="card_overlay" type="id"/></file><file path="D:\Android\AndroidStudioProjects\android-play-places-master\android-play-places-master\PlacePicker\Application\src\main\res\values\placepicker_strings.xml" qualifiers=""><string name="intro_title">PlacePicker Sample</string><string name="pick_title">Pick a place</string><string name="pick_text">Clicking below constructs an Intent to show the place picker dialog.
 \nIf a place was selected, its details are read from the returned data and shown in a separate card.
-</string><string name="pick_action">Pick a place</string><string name="detail_text">Place id: %1$s\nAddress: %2$s\nPhone: %3$s\n\n%4$s</string><string name="empty"/></file><file path="D:\Android\AndroidStudioProjects\android-play-places-master\android-play-places-master\PlacePicker\Application\src\main\res\values\styles.xml" qualifiers=""><style name="CardStream">
+</string><string name="pick_action">Pick a place</string><string name="detail_text">Place id: %1$s\nAddress: %2$s\nPhone: %3$s\n\n%4$s</string><string name="empty"/></file><file path="D:\Android\AndroidStudioProjects\android-play-places-master\android-play-places-master\PlacePicker\Application\src\main\res\values\styles.xml" qualifiers=""><style name="CardStream" parent="Theme.AppCompat.DayNight">
         <item name="android:paddingBottom">@dimen/card_stream_bottom_padding</item>
         <item name="android:divider">@null</item>
         <item name="android:orientation">vertical</item>
-    </style><style name="Card">
+    </style><style name="Card" parent="Theme.AppCompat.DayNight">
         <item name="android:background">@drawable/card_bg</item>
         <item name="android:layout_margin">@dimen/card_margin</item>
-    </style><style name="CardContentArea">
+    </style><style name="CardContentArea" parent="Theme.AppCompat.DayNight">
         <item name="android:paddingBottom">@dimen/card_padding</item>
-    </style><style name="CardActionArea">
+    </style><style name="CardActionArea" parent="Theme.AppCompat.DayNight">
         <item name="android:background">@color/card_action_bg</item>
         <item name="android:orientation">vertical</item>
         <item name="android:paddingBottom">@dimen/card_action_margin</item>
-    </style><style name="CardElement">
+    </style><style name="CardElement" parent="Theme.AppCompat.DayNight">
         <item name="android:paddingLeft">@dimen/card_padding</item>
         <item name="android:paddingRight">@dimen/card_padding</item>
     </style><style name="CardTitleBase" parent="@style/CardElement">
@@ -2535,7 +2535,7 @@
         <item name="android:textSize">@dimen/card_content_text</item>
         <item name="android:textColor">@color/card_content_textcolor</item>
     </style><style name="CardContent" parent="@style/CardContentBase">
-    </style><style name="CardAction">
+    </style><style name="CardAction" parent="Theme.AppCompat.DayNight">
         <item name="android:textSize">17sp</item>
         <item name="android:layout_marginTop">@dimen/card_action_margin</item>
         <item name="android:layout_marginLeft">@dimen/card_action_margin</item>
@@ -2576,9 +2576,9 @@
         <item name="android:textAppearance">?android:textAppearanceLarge</item>
         <item name="android:lineSpacingMultiplier">1.2</item>
         <item name="android:shadowDy">-6.5</item>
-    </style></file><file path="D:\Android\AndroidStudioProjects\android-play-places-master\android-play-places-master\PlacePicker\Application\src\main\res\values-sw720dp-land\dimens.xml" qualifiers="sw720dp-land-v13"><dimen name="activity_horizontal_margin">128dp</dimen></file><file path="D:\Android\AndroidStudioProjects\android-play-places-master\android-play-places-master\PlacePicker\Application\src\main\res\values-v11\styles.xml" qualifiers="v11"><style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+    </style></file><file path="D:\Android\AndroidStudioProjects\android-play-places-master\android-play-places-master\PlacePicker\Application\src\main\res\values-sw720dp-land\dimens.xml" qualifiers="sw720dp-land-v13"><dimen name="activity_horizontal_margin">128dp</dimen></file><file path="D:\Android\AndroidStudioProjects\android-play-places-master\android-play-places-master\PlacePicker\Application\src\main\res\values-v11\styles.xml" qualifiers="v11"><style name="AppBaseTheme" parent="Theme.AppCompat.DayNight">
         
-    </style></file><file path="D:\Android\AndroidStudioProjects\android-play-places-master\android-play-places-master\PlacePicker\Application\src\main\res\values-v11\template-styles.xml" qualifiers="v11"><style name="Theme.Base" parent="android:Theme.Holo.Light"/></file><file path="D:\Android\AndroidStudioProjects\android-play-places-master\android-play-places-master\PlacePicker\Application\src\main\res\values-v14\styles.xml" qualifiers="v14"><style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+    </style></file><file path="D:\Android\AndroidStudioProjects\android-play-places-master\android-play-places-master\PlacePicker\Application\src\main\res\values-v11\template-styles.xml" qualifiers="v11"><style name="Theme.Base" parent="android:Theme.Holo.Light"/></file><file path="D:\Android\AndroidStudioProjects\android-play-places-master\android-play-places-master\PlacePicker\Application\src\main\res\values-v14\styles.xml" qualifiers="v14"><style name="AppBaseTheme" parent="Theme.AppCompat.DayNight">
         
     </style></file><file path="D:\Android\AndroidStudioProjects\android-play-places-master\android-play-places-master\PlacePicker\Application\src\main\res\values-v16\styles.xml" qualifiers="v16"><style name="CardTitle" parent="@style/CardTitleBase">
         <item name="android:fontFamily">sans-serif-condensed</item>

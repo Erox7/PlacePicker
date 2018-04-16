@@ -1,29 +1,29 @@
 <resources>
 
     <!-- Card Stream -->
-    <style name="CardStream">
+    <style name="CardStream" parent="Theme.AppCompat.DayNight">
         <item name="android:paddingBottom">@dimen/card_stream_bottom_padding</item>
         <item name="android:divider">@null</item>
         <item name="android:orientation">vertical</item>
     </style>
 
     <!-- Main card -->
-    <style name="Card">
+    <style name="Card" parent="Theme.AppCompat.DayNight">
         <item name="android:background">@drawable/card_bg</item>
         <item name="android:layout_margin">@dimen/card_margin</item>
     </style>
 
-    <style name="CardContentArea">
+    <style name="CardContentArea" parent="Theme.AppCompat.DayNight">
         <item name="android:paddingBottom">@dimen/card_padding</item>
     </style>
 
-    <style name="CardActionArea">
+    <style name="CardActionArea" parent="Theme.AppCompat.DayNight">
         <item name="android:background">@color/card_action_bg</item>
         <item name="android:orientation">vertical</item>
         <item name="android:paddingBottom">@dimen/card_action_margin</item>
     </style>
 
-    <style name="CardElement">
+    <style name="CardElement" parent="Theme.AppCompat.DayNight">
         <item name="android:paddingLeft">@dimen/card_padding</item>
         <item name="android:paddingRight">@dimen/card_padding</item>
     </style>
@@ -47,7 +47,7 @@
     </style>
 
     <!-- Action Area Items -->
-    <style name="CardAction">
+    <style name="CardAction" parent="Theme.AppCompat.DayNight">
         <item name="android:textSize">17sp</item>
         <item name="android:layout_marginTop">@dimen/card_action_margin</item>
         <item name="android:layout_marginLeft">@dimen/card_action_margin</item>
